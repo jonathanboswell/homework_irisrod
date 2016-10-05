@@ -67,13 +67,13 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-.container{
+.blueContainer{
   background-color: #033048;
   position: relative;
   height: 100px;
 }
 
-.logo{
+.logo1{
   font-weight: 800;
   font-size: 45px;
   color: white;
@@ -82,67 +82,103 @@ body {
   margin-left: 55px;
   margin-top: 15px;
 }
-
+#nav{
+  margin-left: 50%;
+}
 .links{
   font-size: 24px;
-  margin-right: 40px;
   margin-top: 30px;
   float: left;
   padding-left: 15px;
-
 }
 #links {
   color: #f9e42e;
   text-decoration: none;
 }
-#container
-{
-  clear: left;
-  float: left;
-  width: 100%;
-  overflow: hidden;
-  border-width: 5px
-}
-h1{
-  font-size: 40px;
-  font-weight: 600;
-  color: #033048;
-  margin-left: 50px;
-  margin-top: 50px;
-  width: 50%;
-}
-.blog{
-  float: left;
-  background-color: #f0efef;
-}
 
-#images{
-  width: 50%;
-  margin-left: 50px;
-}
-p{
-  width: 50%;
-  margin-left: 50px;
-  padding-top: 15px;
-  font-size: 24px;
-}
-#sideBar{
-  column-width: 700px;
-  column-gap: 420px;
-  clear: both;
-  float: left;
-  }
-.readMoreLinks{
-  margin-left: 500px;
-  font-size: 24px;
-  font-weight: 600;
+#post{
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  float:left;
+  width: 700px;
   color: #033048;
 }
 .dividers{
-  width: 50%;
+  width: 100%;
   float: left;
-  margin-left: 50px;
+  margin-bottom: 25px;
 }
+
+.postTitles{
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.images{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.readMore{
+margin-left: 70%;
+display: inline;
+font-size: 24px;
+font-weight: 600;
+text-decoration: none;
+color: #033048;
+}
+#sidbarContainer{
+  display: inline;
+  width: 240px;
+  float:left;
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+.sideBar{
+  width: 240px;
+  border-color:red;
+  border-width: 1px;
+  color: #033048;
+}
+h2{
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+#list{
+  font-weight: lighter;
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.blueLink{
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+#signUp{
+  clear: both;
+  background-color: #f9e42e;
+  height: 130px;
+}
+button{
+    margin-top: 35px;
+    border: none;
+    text-decoration: none;
+}
+.button1{
+  background-color: #033048;
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  width: 300px;
+  height: 66px;
+  border-radius: 5px;
+}
+
 #logo2{
   font-size: 40px;
   color: #f9e42e;
@@ -154,23 +190,27 @@ p{
 
 }
 #footer{
+  clear: both;
   background: #121212;
   height: 400px;
 }
 
 #twitter{
-  float: left;
-  margin-left: 570px;
-  padding-bottom: 55px;
-  padding-right: 55px;
+    display: inline-block;
+    width:120px;
+    height:120px;
 }
+#facebook{
+    display: inline-block;
+    width:120px;
+    height:120px;
+}
+
 .Copyright{
   clear: both;
-  margin-top: 100px;
   font-size: 15px;
   color: white;
   font-weight: 300;
-
 }
 
 
