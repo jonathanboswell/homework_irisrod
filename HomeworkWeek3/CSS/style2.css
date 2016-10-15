@@ -130,7 +130,7 @@ p{
   column-width: 700px;
   column-gap: 420px;
   clear: both;
-  float: left;
+  float: right;
   }
 .readMoreLinks{
   margin-left: 500px;
