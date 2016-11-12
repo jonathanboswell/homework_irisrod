@@ -1,0 +1,29 @@
+$("#events-content").hide()
+$("#gallery-content").hide()
+$("#store-content").hide()
+
+$("#events").click(function(){
+    $('body').removeClass()
+    $('body').addClass('newImage')
+    $("#events-content").show()
+    $("#music-content").hide()
+    $("#gallery-content").hide()
+    $("#store-content").hide()
+})
+$("#gallery").click(function(){
+    $('body').removeClass()
+    $('body').addClass('newImage')
+    $("#gallery-content").show()
+    $("#events-content").hide()
+    $("#music-content").hide()
+    $("#store-content").hide()
+})
+
+$("#store").click(function(){
+    $('body').removeClass()
+    $('body').addClass('newImage')
+    $("#store-content").show()
+    $("#events-content").hide()
+    $("#music-content").hide()
+    $("#gallery-content").hide()
+})
